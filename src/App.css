@@ -1,0 +1,164 @@
+/* === Premium Black & Gold Theme === */
+body {
+  background-color: #0a0a0a; /* Matte black */
+  color: #d9d9d9; /* Silver-white text */
+  font-family: "Poppins", "Playfair Display", serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
+  background: linear-gradient(90deg, #FFD700, #FFC300, #FFB700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: #FFD700;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+a:hover {
+  color: #FFC300;
+  text-shadow: 0 0 8px rgba(255, 215, 0, 0.7);
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Search Bar */
+input.form-control {
+  background-color: #111;
+  border: 1px solid #333;
+  color: #eaeaea;
+  padding: 12px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+input.form-control:focus {
+  border-color: #FFD700;
+  outline: none;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.6);
+}
+
+/* Cards */
+.card {
+  background: rgba(15, 15, 15, 0.9);
+  border: 1px solid rgba(255, 215, 0, 0.2);
+  border-radius: 16px;
+  overflow: hidden;
+  backdrop-filter: blur(6px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px) scale(1.02);
+  border: 1px solid rgba(255, 215, 0, 0.6);
+  box-shadow: 0px 8px 20px rgba(255, 215, 0, 0.2);
+}
+
+.card-img-top {
+  border-bottom: 2px solid #222;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  color: #FFD700;
+  margin-bottom: 8px;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #bfbfbf;
+}
+
+/* Buttons */
+.btn-primary {
+  background: linear-gradient(135deg, #FFD700, #FFC300, #FFB700);
+  border: none;
+  border-radius: 12px;
+  padding: 10px 18px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #0a0a0a;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 12px rgba(255, 215, 0, 0.3);
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #FFB700, #FFD700, #FFC300);
+  transform: scale(1.05);
+  box-shadow: 0 0 18px rgba(255, 215, 0, 0.6);
+}
+
+/* === Movie Detail Page === */
+.movie-detail-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 40px;
+  background: linear-gradient(145deg, #0d0d0d, #1a1a1a);
+  border-radius: 20px;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.8);
+}
+
+.movie-poster img {
+  max-width: 350px;
+  border-radius: 16px;
+  box-shadow: 0px 8px 20px rgba(255, 215, 0, 0.4);
+}
+
+.movie-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.movie-info h1 {
+  font-size: 2.4rem;
+  margin-bottom: 12px;
+  background: linear-gradient(90deg, #FFD700, #FFC300, #FFB700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.movie-info .tagline {
+  font-size: 1rem;
+  color: #bfbfbf;
+  margin-bottom: 20px;
+}
+
+.movie-info .plot {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #ddd;
+  margin-bottom: 20px;
+}
+
+.movie-info p {
+  margin: 8px 0;
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.movie-info .rating {
+  font-size: 1.2rem;
+  margin-top: 15px;
+  color: #FFD700;
+  font-weight: bold;
+  text-shadow: 0 0 8px rgba(255, 215, 0, 0.7);
+}
