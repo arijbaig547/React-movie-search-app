@@ -1,12 +1,95 @@
-# React + Vite
+🎬 Movie Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and elegant React application that lets users search for movies using the OMDB API.
+Built to strengthen React fundamentals with useState and useEffect hooks.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔎 Search movies by title
 
-## Expanding the ESLint configuration
+🎥 Fetch real movie data from the OMDB API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+⚡ Built with React Hooks (useState, useEffect)
+
+🎨 Clean and responsive UI
+
+🛠️ Tech Stack
+
+React (Hooks: useState, useEffect)
+
+JavaScript (ES6+)
+
+OMDB API
+
+CSS (for styling)
+
+📂 Project Structure
+movie-search-app/
+│── src/
+│   ├── pages/
+        └── MovieDetail.jsx
+│   │   └── Home.jsx
+│   ├── App.jsx
+│   ├── index.js
+│   └── App.css
+│   └── main.jsx
+│   └── Router.jsx
+
+│── public/
+│── package.json
+
+⚙️ Installation & Setup
+
+Clone the repository
+
+git clone https://github.com/your-username/movie-search-app.git
+cd movie-search-app
+
+
+Install dependencies
+
+npm install
+
+
+Get your free OMDB API key from 👉 OMDB API
+
+Create a .env file in the root directory and add your key:
+
+REACT_APP_OMDB_API_KEY=your_api_key_here
+
+
+Run the app
+
+npm start
+
+📸 Screenshots
+
+👉 (Add a couple of screenshots of your app UI here)
+
+🎯 Learning Purpose
+
+This project was built to practice and strengthen:
+
+React Hooks (useState, useEffect)
+
+API integration
+
+State management & rendering logic
+
+🌟 Future Improvements
+
+Add pagination for results
+
+Show detailed movie info on click
+
+Add loading animations
+
+🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+Feel free to fork this repo and submit a pull request.
+
+📩 Contact
+
+Created by Your Name
+ 🚀
