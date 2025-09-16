@@ -21,6 +21,8 @@ Built to strengthen React fundamentals with **useState** and **useEffect** hooks
 
 ---
 
+Screenshot:<img width="1280" height="1024" alt="Image" src="https://github.com/user-attachments/assets/71a67eab-9248-4a9f-9209-bac24edf6efa" />
+
 ## 📂 Project Structure  
 movie-search-app/
 │── src/
